@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- GREETING_START -->
-🌅 Good Morning, World!
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=99999&color=00F5A0&center=true&vCenter=true&width=500&lines=🌅+Good+Morning%2C+World!" alt="Greeting" />
 <!-- GREETING_END -->
 
 # Hey, what'up👋, I'm dev Brian
@@ -30,8 +30,8 @@
 |---|---|
 | 🌅 Morning (5am – 12pm) | *Good Morning! Coffee ☕ + Code = Productivity* |
 | ☀️ Afternoon (12pm – 5pm) | *Good Afternoon! Deep work mode activated 💻* |
-| 🌙 Evening (5pm – 12am) | *Good Evening! Late night commits hit different 🌙* |
-| 🌃 Night (12am – 5am) | *Good Night! Even devs need sleep 😴* |
+| 🌙 Evening (5pm – 9pm) | *Good Evening! Late night commits hit different 🌙* |
+| 🌃 Night (9pm – 5am) | *Good Night! Even devs need sleep 😴* |
 
 ---
 
