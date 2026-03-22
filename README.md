@@ -9,7 +9,7 @@
 ### Software Engineer | Full Stack Developer | Building Real-World Systems
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-000000?style=for-the-badge&logoColor=white)](https://your-portfolio-link)
-[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:riyadbrian230@gmail.com)
+[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:wamalwabrian337@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-link)
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=00F5A0&center=true&vCenter=true&width=600&height=50&lines=Full+Stack+Developer;Building+Real+World+Projects;Future+Tech+Founder+%7C+Brisoft+Tech;Always+Learning+New+Things+🚀" alt="Typing SVG" />
