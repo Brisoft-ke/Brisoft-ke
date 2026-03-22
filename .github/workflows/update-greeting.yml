@@ -19,17 +19,28 @@ jobs:
           HOUR=$(TZ="Africa/Nairobi" date +%H)
           HOUR=$((10#$HOUR))
 
-          if [ $HOUR -ge 5 ] && [ $HOUR -lt 12 ]; then
-            LINE="🌅+Good+Morning%2C+World!+—+Coffee+☕+%2B+Code+%3D+Productivity"
-          elif [ $HOUR -ge 12 ] && [ $HOUR -lt 17 ]; then
+          # -----------------------------------------------
+          # TIME BOUNDARIES (24-hour EAT clock):
+          #   Morning:   00:01 – 12:00  (midnight to noon)
+          #   Afternoon: 12:00 – 15:00  (noon to 3pm)
+          #   Evening:   15:00 – 21:00  (3pm to 9pm)
+          #   Night:     21:00 – 00:00  (9pm to midnight)
+          #
+          # TO CHANGE: edit the numbers below.
+          # Example — make afternoon end at 2pm: change 15 to 14
+          # -----------------------------------------------
+          if [ $HOUR -ge 0 ] && [ $HOUR -lt 12 ]; then
+            LINE="🌅+Good+Morning%2C+World!+—+Coffee+%E2%98%95+%2B+Code+%3D+Productivity"
+          elif [ $HOUR -ge 12 ] && [ $HOUR -lt 15 ]; then
             LINE="☀️+Good+Afternoon%2C+World!+—+Deep+work+mode+activated+💻"
-          elif [ $HOUR -ge 17 ] && [ $HOUR -lt 21 ]; then
+          elif [ $HOUR -ge 15 ] && [ $HOUR -lt 21 ]; then
             LINE="🌙+Good+Evening%2C+World!+—+Late+night+commits+hit+different+🌙"
           else
             LINE="🌃+Good+Night%2C+World!+—+Even+devs+need+sleep+😴"
           fi
 
-          IMG='<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code\&size=22\&pause=99999\&color=00F5A0\&center=true\&vCenter=true\&width=600\&lines='"$LINE"'" alt="Greeting" />'
+          # width=800 ensures full text is never cut off
+          IMG='<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=99999&color=00F5A0&center=true&vCenter=true&width=800&lines='"$LINE"'" alt="Greeting" />'
           echo "img=$IMG" >> $GITHUB_OUTPUT
 
       - name: Update README
