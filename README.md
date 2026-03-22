@@ -8,7 +8,7 @@
 ### Software Engineer | Full Stack Developer | Building Real-World Systems
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-000000?style=for-the-badge&logoColor=white)](https://your-portfolio-link)
-[![Email](https://img.shields.io/badge/📧_Email-EA4335?style=for-the-badge&logoColor=white)](mailto:your-email@gmail.com)
+[![Email](https://img.shields.io/badge/📧_Email-EA4335?style=for-the-badge&logoColor=white)](mailto:wamalwabrian337@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-link)
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=00F5A0&center=true&vCenter=true&width=600&height=50&lines=Full+Stack+Developer;Building+Real+World+Projects;Future+Tech+Founder+%7C+Brisoft+Tech;Always+Learning+New+Things+🚀" alt="Typing SVG" />
@@ -119,7 +119,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-link)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/your-handle)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/your-handle)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/dev_brianke/?__pwa=1)
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/your-profile)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/254721611767)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=white)](https://your-portfolio-link)
