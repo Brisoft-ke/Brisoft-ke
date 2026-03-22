@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- GREETING_START -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=99999&color=00F5A0&center=true&vCenter=true&width=800&lines=🌙+Good+Evening%2C+World!+—+Late+night+commits+hit+different+🌙" alt="Greeting" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=99999&color=00F5A0&center=true&vCenter=true&width=800&lines=🌅+Good+Morning%2C+World!+—+Coffee+☕+%2B+Code+%3D+Productivity" alt="Greeting" />
 <!-- GREETING_END -->
 
 # Hey, what'up👋, I'm dev Brian
@@ -9,7 +9,7 @@
 ### Software Engineer | Full Stack Developer | Building Real-World Systems
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-000000?style=for-the-badge&logoColor=white)](https://your-portfolio-link)
-[![Email](https://img.shields.io/badge/📧_Email-EA4335?style=for-the-badge&logoColor=white)](mailto:wamalwabrian337@gmail.com)
+[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:wamalwabrian337@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-link)
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=00F5A0&center=true&vCenter=true&width=600&height=50&lines=Full+Stack+Developer;Building+Real+World+Projects;Future+Tech+Founder+%7C+Brisoft+Tech;Always+Learning+New+Things+🚀" alt="Typing SVG" />
@@ -28,10 +28,10 @@
 
 | 🕐 Time of Day | Greeting |
 |---|---|
-| 🌅 Morning (5am – 12pm) | *Good Morning! Coffee ☕ + Code = Productivity* |
-| ☀️ Afternoon (12pm – 5pm) | *Good Afternoon! Deep work mode activated 💻* |
-| 🌙 Evening (5pm – 9pm) | *Good Evening! Late night commits hit different 🌙* |
-| 🌃 Night (9pm – 5am) | *Good Night! Even devs need sleep 😴* |
+| 🌅 Morning (12am – 12pm) | *Good Morning! Coffee ☕ + Code = Productivity* |
+| ☀️ Afternoon (12pm – 3pm) | *Good Afternoon! Deep work mode activated 💻* |
+| 🌙 Evening (3pm – 9pm) | *Good Evening! Late night commits hit different 🌙* |
+| 🌃 Night (9pm – 12am) | *Good Night! Even devs need sleep 😴* |
 
 ---
 
@@ -124,6 +124,7 @@
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/dev_brianke/?__pwa=1)
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100082407910620)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/254721611767)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:wamalwabrian337@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=white)](https://your-portfolio-link)
 
 </div>
