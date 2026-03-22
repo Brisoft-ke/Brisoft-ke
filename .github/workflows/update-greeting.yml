@@ -2,8 +2,8 @@ name: Update Greeting
 
 on:
   schedule:
-    - cron: "0 * * * *"   # runs every hour
-  workflow_dispatch:        # allows manual trigger
+    - cron: "0 * * * *"   # runs every hour on the hour
+  workflow_dispatch:        # allows manual trigger from Actions tab
 
 jobs:
   update-greeting:
@@ -13,37 +13,36 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Set greeting based on EAT time (UTC+3)
+      - name: Set animated SVG greeting based on EAT time (UTC+3)
         id: greeting
         run: |
-          # East Africa Time is UTC+3 (Nairobi/Kenya)
           HOUR=$(TZ="Africa/Nairobi" date +%H)
-          HOUR=$((10#$HOUR))  # strip leading zero
+          HOUR=$((10#$HOUR))
 
           if [ $HOUR -ge 5 ] && [ $HOUR -lt 12 ]; then
-            GREETING="🌅 Good Morning, World! — Coffee ☕ + Code = Productivity"
+            LINE="🌅+Good+Morning%2C+World!+—+Coffee+☕+%2B+Code+%3D+Productivity"
           elif [ $HOUR -ge 12 ] && [ $HOUR -lt 17 ]; then
-            GREETING="☀️ Good Afternoon, World! — Deep work mode activated 💻"
+            LINE="☀️+Good+Afternoon%2C+World!+—+Deep+work+mode+activated+💻"
           elif [ $HOUR -ge 17 ] && [ $HOUR -lt 21 ]; then
-            GREETING="🌙 Good Evening, World! — Late night commits hit different 🌙"
+            LINE="🌙+Good+Evening%2C+World!+—+Late+night+commits+hit+different+🌙"
           else
-            GREETING="🌃 Good Night, World! — Even devs need sleep 😴"
+            LINE="🌃+Good+Night%2C+World!+—+Even+devs+need+sleep+😴"
           fi
 
-          echo "greeting=$GREETING" >> $GITHUB_OUTPUT
+          IMG='<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code\&size=22\&pause=99999\&color=00F5A0\&center=true\&vCenter=true\&width=600\&lines='"$LINE"'" alt="Greeting" />'
+          echo "img=$IMG" >> $GITHUB_OUTPUT
 
       - name: Update README
         run: |
-          GREETING="${{ steps.greeting.outputs.greeting }}"
+          python3 - <<'EOF'
+          import re, os
 
-          # Replace content between the GREETING comment tags
-          python3 - <<EOF
-          import re
+          img = os.environ["GREETING_IMG"]
 
           with open("README.md", "r") as f:
               content = f.read()
 
-          new_block = f"<!-- GREETING_START -->\n{GREETING}\n<!-- GREETING_END -->"
+          new_block = f"<!-- GREETING_START -->\n{img}\n<!-- GREETING_END -->"
           updated = re.sub(
               r"<!-- GREETING_START -->.*?<!-- GREETING_END -->",
               new_block,
@@ -54,6 +53,8 @@ jobs:
           with open("README.md", "w") as f:
               f.write(updated)
           EOF
+        env:
+          GREETING_IMG: ${{ steps.greeting.outputs.img }}
 
       - name: Commit and push if changed
         run: |
