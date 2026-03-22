@@ -1,9 +1,10 @@
-
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00F5A0&center=true&vCenter=true&width=500&lines=🌅+Good+Morning%2C+World!;🌞+Good+Afternoon%2C+World!;🌙+Good+Evening%2C+World!" alt="Greeting" />
+<!-- GREETING_START -->
+🌅 Good Morning, World!
+<!-- GREETING_END -->
 
-# Hey,what'up👋, I'm dev Brian
+# Hey, what'up👋, I'm dev Brian
 
 ### Software Engineer | Full Stack Developer | Building Real-World Systems
 
@@ -30,6 +31,7 @@
 | 🌅 Morning (5am – 12pm) | *Good Morning! Coffee ☕ + Code = Productivity* |
 | ☀️ Afternoon (12pm – 5pm) | *Good Afternoon! Deep work mode activated 💻* |
 | 🌙 Evening (5pm – 12am) | *Good Evening! Late night commits hit different 🌙* |
+| 🌃 Night (12am – 5am) | *Good Night! Even devs need sleep 😴* |
 
 ---
 
@@ -139,5 +141,3 @@
   <br/>
   <img src="https://komarev.com/ghpvc/?username=bBrisoft-ke&label=Profile+Views&color=00f5a0&style=flat" alt="Profile views" />
 </div>
-
-
