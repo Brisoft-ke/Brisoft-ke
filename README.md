@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=99999&color=00F5A0&center=true&vCenter=true&width=500&lines=🌅+Good+Morning%2C+World!;🌞+Good+Afternoon%2C+World!;🌙+Good+Evening%2C+World!" alt="Greeting" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00F5A0&center=true&vCenter=true&width=500&lines=🌅+Good+Morning%2C+World!;🌞+Good+Afternoon%2C+World!;🌙+Good+Evening%2C+World!" alt="Greeting" />
 
 # Hey,what'up👋, I'm dev Brian
 
