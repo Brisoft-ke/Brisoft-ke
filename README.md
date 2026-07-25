@@ -83,7 +83,7 @@ Nairobi, kenya
 
 - 🔹 **Tech:** HTML, CSS, JavaScript  
 - 🔹 **Features:** Real-time cart, order management, responsive UI  
-- 🔗 [View Project](#)
+  
 
 ---
 
